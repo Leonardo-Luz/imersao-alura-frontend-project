@@ -5,8 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Spotify Clone</title>
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="src/styles/reset.css">
+	<link rel="stylesheet" href="src/styles/sidebar.css">
+	<link rel="stylesheet" href="src/styles/searchbar.css">
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" />
@@ -75,6 +76,30 @@
 						</span>
 					</button>
 				</div>
+			</div>
+		</div>
+		<div class="searchbar">
+			<div class="search_input_container">
+				<div class="search_links">
+					<a class="search_link" href="">
+						<span class="text fa fa-chevron-left" />
+					</a>
+					<a class="search_link" href="">
+						<span class="text fa fa-chevron-right" />
+					</a>
+				</div>
+				<label>
+					<span class="text fa fa-search" />
+					<input placeholder="What you want to listen?" />
+				</label>
+			</div>
+			<div class="search_register_container">
+				<button class="text register">
+					Register
+				</button>
+				<button class="login">
+					Login
+				</button>
 			</div>
 		</div>
 	</main>
