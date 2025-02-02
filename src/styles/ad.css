@@ -17,7 +17,8 @@
 	padding: 12px;
 	margin: 8px;
 
-	background-color: #001418;
+	background: rgb(131, 58, 180);
+	background: linear-gradient(60deg, rgba(131, 58, 180, 0.5) 0%, rgba(253, 29, 29, 0.6) 60%, rgba(252, 176, 69, 0.7) 100%);
 }
 
 .ad_container {
