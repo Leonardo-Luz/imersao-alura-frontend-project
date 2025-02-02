@@ -1,0 +1,35 @@
+.ad {
+	text-decoration: none;
+
+	width: 96vw;
+	height: 8vh;
+
+	position: fixed;
+	left: 0;
+	bottom: 0;
+
+	display: flex;
+	flex-direction: row;
+
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 12px;
+	margin: 8px;
+
+	background-color: #001418;
+}
+
+.ad_container {
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+
+	justify-content: space-between;
+	align-items: center;
+}
+
+.text_container {
+	width: 80%;
+}
